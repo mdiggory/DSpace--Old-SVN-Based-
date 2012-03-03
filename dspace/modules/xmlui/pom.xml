@@ -138,8 +138,9 @@
       <!-- DSpace XMLUI Webapp -->
       <dependency>
          <groupId>org.dspace</groupId>
-         <artifactId>dspace-xmlui-webapp</artifactId>
+         <artifactId>dspace-xmlui</artifactId>
          <type>war</type>
+
       </dependency>
 
       <dependency>
@@ -177,7 +178,9 @@
       <!-- DSpace XMLUI API -->
       <dependency>
          <groupId>org.dspace</groupId>
-         <artifactId>dspace-xmlui-api</artifactId>
+         <artifactId>dspace-xmlui</artifactId>
+         <type>jar</type>
+         <classifier>classes</classifier>
       </dependency>
 
       <dependency>
