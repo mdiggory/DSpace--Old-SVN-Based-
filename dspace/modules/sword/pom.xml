@@ -7,7 +7,6 @@
    <description>
       DSpace SWORD Deposit Service Provider Web Application
    </description>
-   <url>http://swordapp.org/</url>
 
    <!--
       A Parent POM that Maven inherits DSpace Default
@@ -115,16 +114,14 @@
    <dependencies>
       <dependency>
          <groupId>org.dspace</groupId>
-         <artifactId>dspace-sword-webapp</artifactId>
+         <artifactId>dspace-sword</artifactId>
          <type>war</type>
       </dependency>
       <dependency>
          <groupId>org.dspace</groupId>
-         <artifactId>dspace-sword-api</artifactId>
-      </dependency>
-      <dependency>
-         <groupId>org.dspace</groupId>
-         <artifactId>dspace-discovery-provider</artifactId>
+         <artifactId>dspace-sword</artifactId>
+         <type>jar</type>
+         <classifier>classes</classifier>
       </dependency>
       <dependency>
          <groupId>javax.servlet</groupId>

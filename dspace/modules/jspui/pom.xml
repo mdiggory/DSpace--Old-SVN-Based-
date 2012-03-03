@@ -4,7 +4,6 @@
 	<artifactId>jspui</artifactId>
 	<packaging>war</packaging>
 	<name>DSpace JSP-UI :: Web Application</name>
-	<url>http://www.dspace.org</url>
 	<description>DSpace JSP-UI :: Web Application</description>
 
 	<parent>
@@ -109,25 +108,17 @@
 	</build>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>org.dspace</groupId>
 			<artifactId>dspace-jspui</artifactId>
 			<type>war</type>
 		</dependency>
-
 		<dependency>
 			<groupId>org.dspace</groupId>
 			<artifactId>dspace-jspui</artifactId>
             <type>jar</type>
             <classifier>classes</classifier>
 		</dependency>
-
-		<dependency>
-           <groupId>org.dspace</groupId>
-           <artifactId>dspace-discovery-provider</artifactId>
-        </dependency>
-
 		<dependency>
 		   <groupId>javax.servlet</groupId>
 		   <artifactId>servlet-api</artifactId>
