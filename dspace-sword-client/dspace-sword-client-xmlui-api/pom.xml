@@ -39,7 +39,7 @@
 
         <dependency>
             <groupId>org.dspace</groupId>
-            <artifactId>dspace-sword-client-api</artifactId>
+            <artifactId>dspace-common-api</artifactId>
         </dependency>
 
     </dependencies>

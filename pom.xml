@@ -216,12 +216,12 @@
            Builds DSpace Sword Client from local source if present
         -->
         <profile>
-            <id>dspace-sword-client</id>
+            <id>dspace-common-api</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <modules>
-                <module>dspace-sword-client</module>
+                <module>dspace-common-api</module>
             </modules>
         </profile>
 
@@ -349,14 +349,8 @@
          </dependency>
           <dependency>
               <groupId>org.dspace</groupId>
-              <artifactId>dspace-sword-api</artifactId>
+              <artifactId>dspace-common-api</artifactId>
               <version>${project.version}</version>
-          </dependency>
-          <dependency>
-              <groupId>org.dspace</groupId>
-              <artifactId>dspace-sword-webapp</artifactId>
-              <version>${project.version}</version>
-              <type>war</type>
           </dependency>
           <dependency>
               <groupId>org.dspace</groupId>
@@ -373,7 +367,7 @@
           </dependency>
            <dependency>
               <groupId>org.dspace</groupId>
-              <artifactId>dspace-sword-client-api</artifactId>
+              <artifactId>dspace-common-api</artifactId>
               <version>${project.version}</version>
           </dependency>
           <dependency>

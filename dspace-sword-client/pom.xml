@@ -17,7 +17,6 @@
     <modules>
         <module>dspace-sword-client-api</module>
         <module>dspace-sword-client-xmlui-api</module>
-        <module>dspace-sword-client-xmlui-webapp</module>
     </modules>
 
     <!--
