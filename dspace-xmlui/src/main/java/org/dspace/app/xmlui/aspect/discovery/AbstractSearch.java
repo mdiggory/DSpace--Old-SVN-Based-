@@ -25,7 +25,6 @@ import org.dspace.content.*;
 import org.dspace.content.Collection;
 import org.dspace.content.Item;
 import org.dspace.core.LogManager;
-import org.dspace.discovery.*;
 import org.dspace.discovery.configuration.DiscoveryConfiguration;
 import org.dspace.discovery.configuration.DiscoverySortConfiguration;
 import org.dspace.discovery.configuration.DiscoverySortFieldConfiguration;
