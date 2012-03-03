@@ -132,7 +132,7 @@
         </dependency>
         <dependency>
             <groupId>org.dspace</groupId>
-            <artifactId>dspace-api</artifactId>
+            <artifactId>dspace-common-api</artifactId>
         </dependency>
         <dependency>
             <groupId>com.googlecode.foresite-toolkit</groupId>

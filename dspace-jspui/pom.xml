@@ -129,7 +129,7 @@
     <dependencies>
         <dependency>
             <groupId>org.dspace</groupId>
-            <artifactId>dspace-api</artifactId>
+            <artifactId>dspace-common-api</artifactId>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>

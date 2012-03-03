@@ -124,18 +124,13 @@
 
         <dependency>
             <groupId>org.dspace</groupId>
-            <artifactId>dspace-api</artifactId>
+            <artifactId>dspace-common-api</artifactId>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
                     <artifactId>slf4j-api</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-
-        <dependency>
-            <groupId>org.dspace</groupId>
-            <artifactId>dspace-services-impl</artifactId>
         </dependency>
 
         <dependency>
