@@ -13,7 +13,6 @@ import org.dspace.app.xmlui.wing.Message;
 import org.dspace.app.xmlui.wing.WingException;
 import org.dspace.app.xmlui.wing.element.*;
 import org.dspace.authorize.AuthorizeException;
-import org.dspace.content.*;
 import org.dspace.content.Item;
 import org.dspace.eperson.EPerson;
 import org.dspace.workflow.WorkflowItem;
