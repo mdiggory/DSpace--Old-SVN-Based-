@@ -28,6 +28,7 @@ import org.apache.cocoon.environment.ObjectModelHelper;
 import org.apache.excalibur.source.SourceValidity;
 import org.apache.log4j.Logger;
 import org.dspace.core.Context;
+import org.dspace.discovery.*;
 import org.dspace.services.ConfigurationService;
 import org.dspace.utils.DSpace;
 import org.xml.sax.SAXException;

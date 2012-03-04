@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.dspace</groupId>
     <artifactId>dspace-api</artifactId>
-    <name>DSpace Kernel :: API and Implementation</name>
+    <name>DSpace :: Legacy Implementation</name>
     <description>DSpace core data model and service APIs.</description>
     <url>http://projects.dspace.org/dspace-api</url>
 

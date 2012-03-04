@@ -6,8 +6,7 @@
     <groupId>org.dspace</groupId>
     <artifactId>dspace-common-api</artifactId>
     <version>3.0-SNAPSHOT</version>
-    <name>DSpace :: Common Business API</name>
-
+    <name>DSpace :: Common Business Interfaces</name>
     <parent>
         <groupId>org.dspace</groupId>
         <artifactId>dspace-parent</artifactId>
@@ -29,6 +28,11 @@
             <groupId>org.dspace.dependencies</groupId>
             <artifactId>dspace-geoip</artifactId>
             <version>1.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.swordapp</groupId>
+            <artifactId>sword-common</artifactId>
+            <version>1.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.ant</groupId>

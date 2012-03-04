@@ -8,6 +8,7 @@
 package org.dspace.statistics.util;
 
 import org.dspace.core.ConfigurationManager;
+import org.xbill.DNS.*;
 
 import java.io.IOException;
 

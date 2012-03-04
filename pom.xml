@@ -133,19 +133,6 @@
         </profile>
 
         <!--
-           Builds DSpace Solr Stats for DSpace
-        -->
-        <profile>
-            <id>dspace-stats</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <modules>
-                <module>dspace-stats</module>
-            </modules>
-        </profile>
-
-        <!--
             Builds DSpace discovery for DSpace
         -->
         <profile>
@@ -263,7 +250,6 @@
          </activation>
          <modules>
             <module>dspace-api</module>
-            <module>dspace-stats</module>
             <module>dspace-discovery</module>
             <module>dspace-jspui</module>
             <module>dspace-xmlui</module>
@@ -271,7 +257,6 @@
             <module>dspace-oai</module>
             <module>dspace-sword</module>
             <module>dspace-swordv2</module>
-            <module>dspace-sword-client</module>
          </modules>
       </profile>
 
@@ -354,6 +339,19 @@
           </dependency>
           <dependency>
               <groupId>org.dspace</groupId>
+              <artifactId>dspace-sword</artifactId>
+              <version>${project.version}</version>
+              <type>jar</type>
+              <classifier>classes</classifier>
+          </dependency>
+          <dependency>
+              <groupId>org.dspace</groupId>
+              <artifactId>dspace-sword</artifactId>
+              <version>${project.version}</version>
+              <type>war</type>
+          </dependency>
+          <dependency>
+              <groupId>org.dspace</groupId>
               <artifactId>dspace-swordv2</artifactId>
               <version>${project.version}</version>
               <type>jar</type>
@@ -410,7 +408,9 @@
          </dependency>
          <dependency>
             <groupId>org.dspace</groupId>
-            <artifactId>dspace-lni-core</artifactId>
+            <artifactId>dspace-lni</artifactId>
+            <type>jar</type>
+            <classifier>classes</classifier>
             <version>${project.version}</version>
          </dependency>
          <dependency>
@@ -420,7 +420,7 @@
          </dependency>
          <dependency>
             <groupId>org.dspace</groupId>
-            <artifactId>dspace-lni-webapp</artifactId>
+            <artifactId>dspace-lni</artifactId>
             <version>${project.version}</version>
             <type>war</type>
          </dependency>
@@ -451,11 +451,6 @@
             <groupId>org.dspace</groupId>
             <artifactId>dspace-services-utils</artifactId>
             <version>2.0.4</version>
-         </dependency>
-         <dependency>
-            <groupId>org.dspace</groupId>
-            <artifactId>dspace-stats</artifactId>
-            <version>${project.version}</version>
          </dependency>
          <!-- DSpace Localization Packages -->
          <dependency>

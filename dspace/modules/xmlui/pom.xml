@@ -59,7 +59,7 @@
                   </overlay>
                   <overlay>
                      <groupId>org.dspace</groupId>
-                     <artifactId>dspace-xmlui-webapp</artifactId>
+                     <artifactId>dspace-xmlui</artifactId>
                   </overlay>
                </overlays>
             </configuration>
