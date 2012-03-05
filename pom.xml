@@ -136,12 +136,12 @@
             Builds DSpace discovery for DSpace
         -->
         <profile>
-            <id>dspace-discovery</id>
+            <id>dspace-discovery-solr</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <modules>
-                <module>dspace-discovery</module>
+                <module>dspace-discovery-solr</module>
             </modules>
         </profile>
 
@@ -464,11 +464,6 @@
             <version>[1.8.0.0,1.9.0.0)</version>
             <type>war</type>
          </dependency>
-          <dependency>
-              <groupId>org.dspace</groupId>
-              <artifactId>dspace-discovery-provider</artifactId>
-              <version>${project.version}</version>
-          </dependency>
           <dependency>
               <groupId>org.dspace</groupId>
               <artifactId>dspace-discovery-solr</artifactId>
