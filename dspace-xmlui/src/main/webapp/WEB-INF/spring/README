@@ -1,0 +1,5 @@
+Any spring XML configuration placed into this directory will be loaded by Spring during Webapplication loading.
+
+This location is ideal for loading Addon Services into the DSpace XMLUI.
+
+See [TODO] for examples.
